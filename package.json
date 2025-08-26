@@ -1,24 +1,15 @@
 {
-  "name": "namaste-react",
+  "name": "practice_1",
   "version": "1.0.0",
   "description": "This is namaste react by aman kumar",
-  "main": "App.js",
   "scripts": {
-    "test": "jest"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/amanshah20/React-app.git"
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
-  "keywords": [
-    "react-app"
-  ],
-  "author": "aman",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/amanshah20/React-app/issues"
-  },
-  "homepage": "https://github.com/amanshah20/React-app#readme",
   "devDependencies": {
     "parcel": "^2.15.4"
   }
